@@ -48,3 +48,14 @@ def my_func():
 def my_func():
     print("I do nothing")
 ```
+Les parametres sont les noms qu'on utilise pour se referer aux valeurs, alors que les arguments sont les valeurs en elles mêmes
+La différence entre les parametres et les arguments en code:
+
+```
+# a et b sont les parametres
+def add(a, b):
+    return a + b
+
+# 5 et 6 sont les arguments
+sum = add(5, 6)
+```
