@@ -32,3 +32,4 @@ def print_health(new_health):
 # call entrypoint last
 main()
 ```
+Quand un programme ne contient pas de return il return None par défaut
