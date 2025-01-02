@@ -32,4 +32,19 @@ def print_health(new_health):
 # call entrypoint last
 main()
 ```
-Quand un programme ne contient pas de return il return None par défaut
+Quand un programme ne contient pas de return il return None par défaut,
+donc les 3 exemples suivant retourne la même chose
+```
+def my_func():
+    print("I do nothing")
+    return None
+```
+```
+def my_func():
+    print("I do nothing")
+    return
+```
+```
+def my_func():
+    print("I do nothing")
+```
