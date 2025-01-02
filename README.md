@@ -33,7 +33,7 @@ def print_health(new_health):
 main()
 ```
 Quand un programme ne contient pas de return il return None par défaut,
-donc les 3 exemples suivant retourne la même chose
+donc les 3 exemples suivants retourne la même chose
 ```
 def my_func():
     print("I do nothing")
