@@ -59,3 +59,10 @@ def add(a, b):
 # 5 et 6 sont les arguments
 sum = add(5, 6)
 ```
+Floor division is like normal division except the result is floored afterward, which means the result is rounded down to the nearest integer. The // operator is used for floor division.
+```
+7 // 3
+# 2 (an integer, rounded down from 2.333)
+-7 // 3
+# -3 (an integer, rounded down from -2.333)
+```
