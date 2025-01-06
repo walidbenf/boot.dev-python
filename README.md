@@ -73,3 +73,12 @@ Python has built-in support for exponents - something most languages require a m
 3 ** 2
 # 9
 ```
+Binary in Python
+You can write an integer in Python using binary syntax using the 0b prefix:
+```
+print(0b0001)
+# Prints 1
+
+print(0b0101)
+# Prints 5
+```
