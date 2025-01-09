@@ -44,7 +44,7 @@ def my_func():
     print("I do nothing")
     return
 ```
-```
+```python
 def my_func():
     print("I do nothing")
 ```
